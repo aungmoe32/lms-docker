@@ -17,6 +17,7 @@ A fully-featured e-commerce app.
 - Copy `.env.example` into `.env` and configure database credentials
 - Navigate to the project's root directory using terminal
 - Run `composer install`
+- Run `php artisan storage:link` for storage link
 - Set the encryption key by executing `php artisan key:generate --ansi`
 - Run migrations `php artisan migrate --seed`
 - Add Stripe secret key to .env for payment `STRIPE_SECRET_KEY=...`
